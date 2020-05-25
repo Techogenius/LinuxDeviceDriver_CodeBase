@@ -1,0 +1,1 @@
+cmd_/home/rajat/Ldd/mm/ioregion.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/rajat/Ldd/mm/ioregion.ko /home/rajat/Ldd/mm/ioregion.o /home/rajat/Ldd/mm/ioregion.mod.o ;  true
